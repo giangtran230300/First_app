@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-item-left, .flex-item-right {
+    flex: 50%;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+}
+
+.list > li {
+    margin: 5%
+}

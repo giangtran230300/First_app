@@ -1,0 +1,33 @@
+.LoginPage {
+    background-color: rgb(243, 238, 238);
+    border: 2px solid rgb(116, 122, 122);
+    border-radius: 15px;
+    width: 25%;
+    height: 25em;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+
+.LoginPage > h1 {
+    text-align: center;
+}
+.MainContent {
+    margin: 5% 2%;
+}
+.MainContent > input{
+    width: 95%;
+  padding: 0.9rem 1rem;
+  margin: 1.5%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.MainContent > button {
+    width: 95%;
+    padding: 1rem;
+    margin: 1.5%;
+    background-color: green;
+}
