@@ -6,10 +6,10 @@ import Header from './components/Header';
 import LoginPage from './components/LoginPage';
 function App() {
   return (
-    <div>
-      <Header/>
+    <div className="App">
+      <Header className="Header"/>
       <hr/>
-    <LoginPage/>
+    <LoginPage className="LoginPage"/>
     </div>
   );
 }

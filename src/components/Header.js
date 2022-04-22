@@ -1,28 +1,24 @@
 import React from "react";
-import '../assets/css/Header.css'
+import '../assets/css/Header.css';
+
 
 export default function Header(){
     return(
-        <header className="flex-container">
-            <div className="flex-item-left ">
-                <img src="" alt="logo"/>
-                <ul className="list">
-                    <li>Homepage</li>
-                    <li>Dashboard</li>
+        <nav className="flex-container">
+            
+                <img src="../assets/images/newlogo.png" alt="logo"/>
+                <ul className="flex-item-left list">
+                    <li><a href="./Homepage.js">Homepage</a></li>
+                    <li><a href="#">Dashboard</a></li>
                 </ul>
-            </div>
 
-            <div className="flex-item-right">
-                <ul className="list">
-                    <li>Account</li>
-                    <li>Login</li>
-                    <li>Signup</li>
+                <ul className="flex-item-right list">
+                    <li><a href="#">Account</a></li>
+                    <li><a href="./LoginPage.js">Login</a></li>
+                    <li><a href="#">SignUp</a></li>
                 </ul>
-            </div>
-            
-                
-            
-        </header>
+
+        </nav>
     )
     
 }

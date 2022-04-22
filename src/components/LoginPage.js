@@ -2,6 +2,7 @@ import React from "react";
 
 import '../assets/css/LoginPage.css';
 
+
 export default function LoginPage(){
     return(
         <form className="LoginPage">
@@ -14,8 +15,9 @@ export default function LoginPage(){
             <label for="password">Password: </label>
             <input type="password" id="password" name="password" placeholder="Password"/> <br/> 
 
-            <button type="submit" className="btn btn-success">Submit</button>
+            <button type="submit" className="btn btn-success" >Submit</button>
         </div>
+        <p>You don't have account yet? <a href="./SignUp.js" target="blank">Sign up</a> </p>
             
         </form>
     )
