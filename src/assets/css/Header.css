@@ -4,11 +4,13 @@
     position: sticky;
     opacity: 0.7;
     height: 3rem;
+    
 }
 
 .flex-item-left, .flex-item-right {
     flex: 50%;
     position: relative;
+    font-weight: bold;
 }
 
 .flex-item-right {
@@ -23,11 +25,11 @@
 .list > li {
     margin: 2% 3%;
 }
- a:link {
+ .group-link:link {
     color: black;
     opacity: 0.7;
     text-decoration: none;
 }
- a:visited {
-    color: black;
+ .group-link:visited {
+    color: blue;
 }

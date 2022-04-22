@@ -17,7 +17,7 @@ export default function LoginPage(){
 
             <button type="submit" className="btn btn-success" >Submit</button>
         </div>
-        <p>You don't have account yet? <a href="./SignUp.js" target="blank">Sign up</a> </p>
+        <p>You don't have account yet? <a href="./SignUp.js" target="blank" className="log_to_sign">Sign up</a> </p>
             
         </form>
     )
